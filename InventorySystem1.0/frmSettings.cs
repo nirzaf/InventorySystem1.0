@@ -55,8 +55,16 @@ namespace InventorySystem1._0
 
         private void dtgtypelist_Click(object sender, EventArgs e)
         {
-            txtCategory.Text = dtgtypelist.CurrentRow.Cells[1].Value.ToString();
-            typeid = dtgtypelist.CurrentRow.Cells[0].Value.ToString();
+            try
+            {
+                txtCategory.Text = dtgtypelist.CurrentRow.Cells[1].Value.ToString();
+                typeid = dtgtypelist.CurrentRow.Cells[0].Value.ToString();
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show(ex.Message + ex.InnerException.StackTrace);
+            }
+
         }
 
         private void btnuload_Click(object sender, EventArgs e)
