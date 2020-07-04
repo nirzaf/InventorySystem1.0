@@ -1,6 +1,6 @@
 ﻿namespace InventorySystem1._0
 {
-    partial class Dashboard
+    partial class Main
     {
         /// <summary>
         /// Required designer variable.
@@ -28,7 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
-            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Dashboard));
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Main));
             this.toolStrip1 = new System.Windows.Forms.ToolStrip();
             this.ts_stocks = new System.Windows.Forms.ToolStripButton();
             this.ts_StockOut = new System.Windows.Forms.ToolStripButton();

@@ -11,9 +11,9 @@ using InventorySystem1._0.Properties;
 
 namespace InventorySystem1._0
 {
-    public partial class Dashboard : Form
+    public partial class Main : Form
     {
-        public Dashboard()
+        public Main()
         {
             InitializeComponent();
         }

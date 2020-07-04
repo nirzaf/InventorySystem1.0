@@ -13,8 +13,8 @@ namespace InventorySystem1._0
 {
     public partial class frmLogin : Form
     {
-        Dashboard frm;
-        public frmLogin(Dashboard frm)
+        Main frm;
+        public frmLogin(Main frm)
         {
             InitializeComponent();
 

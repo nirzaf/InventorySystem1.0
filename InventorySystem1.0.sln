@@ -1,9 +1,9 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 14
-VisualStudioVersion = 14.0.25420.1
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30225.117
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "InventorySystem1.0", "InventorySystem1.0\InventorySystem1.0.csproj", "{CA97507A-5B5D-495E-9A8A-7948598FCB78}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "XYZInventory", "InventorySystem1.0\XYZInventory.csproj", "{CA97507A-5B5D-495E-9A8A-7948598FCB78}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -18,5 +18,8 @@ Global
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {9A1AD28B-DA7C-4024-BBEE-AF106B66D166}
 	EndGlobalSection
 EndGlobal
